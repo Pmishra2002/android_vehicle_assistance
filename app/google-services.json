@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1012615399252",
+    "project_id": "roadsidevehicle",
+    "storage_bucket": "roadsidevehicle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012615399252:android:f4cfcc222ae5bf5c0c2ac1",
+        "android_client_info": {
+          "package_name": "com.example.roadhelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012615399252-1508r70ihrsc7l4oonrthdclu6a8dg78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnHKIMKlbzuX-PW2CyXOliCRulxuUc8jA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012615399252-1508r70ihrsc7l4oonrthdclu6a8dg78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

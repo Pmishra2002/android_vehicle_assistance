@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Service_request"
+    android:background="@drawable/backgroundv">
+    <TextView
+        android:text="@string/enter_your_details"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="top"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+<EditText
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/enter_your_name"
+    android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/vtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/h"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/vnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vehicle_number"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_location"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btn_request"
+        android:text="@string/submit_request"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
